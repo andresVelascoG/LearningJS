@@ -36,6 +36,8 @@ console.log(typeof mySymbol1);
 //Los simbolos son unicos asi tengan la misma descripcion:
 console.log(mySymbol1 === mySymbol2);
 
+const myarray2=[]
+console.log(typeof myarray2)
 //Datos No-primitivos
 console.log('----------------- Non Primitives ----------------------');
 //Object
