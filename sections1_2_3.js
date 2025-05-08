@@ -108,6 +108,7 @@ console.log("4"-5)
 
 //Multiplication (*)
 console.log(5*5);
+console.log(5*"5");
 //Divisional (/)
 console.log(25/5);
 //Modulus (%)
