@@ -32,3 +32,13 @@ console.log(andres.__proto__=== cheff);
 //It can be done in the other way this method says that if the object appears in ANY place of the prototype chain of the object:
 console.log(cheff.isPrototypeOf(andres));
 console.log(Object.prototype.isPrototypeOf(andres));
+
+//There is a way to create a object with the desired prototype
+const person ={
+  greeting: function(){
+    console.log("Hello");
+  }
+}
+const isabella = Object.create(person);
+
+//
